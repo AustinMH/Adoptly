@@ -1,0 +1,106 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*Header*/
+.header {
+  /*Style*/
+ 	background-color:#30627E;
+}
+.header ul {
+  /*Orientation*/
+  margin:0;
+  padding:0;
+  /*Style*/
+  list-style:none;
+  text-align:center;
+}
+
+.header li {
+	/*Orientation*/
+  display:inline-block;
+  padding:20px 30px;
+  margin:0;
+	/*Style*/
+  color:white;
+  font-size:20px;
+}
+
+#highlight {
+/*Style*/
+  font-size:30px;
+  background-color:#E52364;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	/*Full Size Background Boilerplate*/  background:url(https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-origin:padding-box;
+  height:500px;
+	/*Text*/
+  /*Because Jumbtron is the "container" of the H1*/
+  text-align:center;
+}
+
+.jumbotron h1 {
+  color:#E52364;
+  font-weight:800;
+}
+
+/*Supporting*/
+.supporting {
+ 	text-align:center;
+  padding: 0px 30px 30px 30px;
+}
+
+.supporting h2 {
+	font-size:30px; 
+}
+
+.supporting p {
+  font-family:sans-serif;
+	font-size:15px; 
+}
+
+.supporting a {
+  /*Font*/
+	font-size:15px;
+  /*Spacing*/
+  margin:30px auto;
+  /*Illusion of a Button*/
+  /*Use Padding rather than height to maintain the illusion of centered content*/
+  padding: 10px auto;
+  width:200px;
+  border: 1px solid #30627E;
+  border-radius:0px;
+}
+
+/*Footer*/
+.footer {
+ 	/*Style*/
+  color:white;
+  background-color:#E52364;
+  /*Orientation*/
+  padding:20px;
+}
+
+.footer a {
+ 	color:white; 
+}
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}
